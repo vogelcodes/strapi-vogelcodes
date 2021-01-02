@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cadastros",
+  "info": {
+    "name": "cadastro"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "email": {
+      "type": "email",
+      "unique": true,
+      "required": true
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

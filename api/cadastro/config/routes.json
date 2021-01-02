@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cadastros",
+      "handler": "cadastro.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cadastros/count",
+      "handler": "cadastro.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cadastros/:id",
+      "handler": "cadastro.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/cadastros",
+      "handler": "cadastro.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/cadastros/:id",
+      "handler": "cadastro.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/cadastros/:id",
+      "handler": "cadastro.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
